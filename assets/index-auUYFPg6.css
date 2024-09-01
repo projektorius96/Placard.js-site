@@ -1,0 +1,1 @@
+:root{--vertical-scrollbar-width: calc(100vw - 100%) }body,body *{box-sizing:border-box;padding:0;margin:0}div#stage{display:block;width:calc(100vw - var(--vertical-scrollbar-width));height:100vh;position:relative;top:0;left:0}canvas.view{display:inherit;width:100%;height:100%;position:absolute;top:0;left:0;background:transparent}
