@@ -1,0 +1,22 @@
+{
+    "lang": "en-us",
+    "name": "Placard.js : interactive goniometer (display:fullscreen)",
+    "short_name": "Placard.js",
+    "description": "A tool for Physiotherapists, and beyond...",
+    "start_url": "/",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "purpose": "any",
+            "sizes": "192x192",
+            "src": "/pwa/images/maskable_icon_x192.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "/pwa/images/maskable_icon_x512.png",
+            "type": "image/png"
+        }
+    ]
+}
