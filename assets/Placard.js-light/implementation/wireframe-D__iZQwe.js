@@ -1,0 +1,1 @@
+import e from"../src/index-q0B0Z0BZ.js";class l{static draw({context:a}){const{COLORS:t}=e.Views.Line.ENUMS,{ident:i,reversed_ident:s}=e.Views.Wireframe.ENUMS.TYPE;let{canvas:r}=a;return[e.Views.Wireframe.draw({canvas:r,options:{type:i.value}}),e.Views.Wireframe.draw({canvas:r,options:{type:s.value,strokeStyle:t.red.value}})]}}export{l as default};

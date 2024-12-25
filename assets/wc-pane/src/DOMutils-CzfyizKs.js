@@ -1,0 +1,1 @@
+EventTarget.prototype.on=EventTarget.prototype.addEventListener;EventTarget.prototype.rm=EventTarget.prototype.removeEventListener;EventTarget.prototype.send=EventTarget.prototype.dispatchEvent;HTMLElement.extends=e=>{var t;return(t=/HTML(.+)Element/.exec(e==null?void 0:e.name))==null?void 0:t[1].toLowerCase()};

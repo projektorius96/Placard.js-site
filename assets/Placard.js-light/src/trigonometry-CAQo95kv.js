@@ -1,0 +1,1 @@
+function s(e){const n=Math.cos(f(e)),o=Math.sin(f(e));let i=n,c=o,t=-o;return[i,c,t,n].map(r=>r*=window.devicePixelRatio)}function f(e){return e*(Math.PI/180)}function l(e,n,o,i=!0,c=[]){const t=[];e:for(e;e<o+i;e+=n){for(let u of c)if(u==e)continue e;t.push(e)}return t}export{f as degToRad,s as setAngle,l as setRange};
