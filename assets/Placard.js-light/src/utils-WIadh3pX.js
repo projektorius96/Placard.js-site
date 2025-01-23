@@ -1,0 +1,1 @@
+Object.defineProperties(HTMLDivElement.prototype,{layers:{get(){return this.children}},add:{value:function(e){this.append(...e)}}});Object.defineProperties(Array.prototype,{on:{value:Array.prototype.forEach}});Object.defineProperties(Function.prototype,{value:{get(){return this.name}}});function r(e){if(!Array.isArray(e))return Array.from(e)}export{r as getIterable};
